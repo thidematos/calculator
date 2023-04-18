@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: linear-gradient(-63deg, #0298e6, #02ddf0);
+}
+
+.main {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3rem;
+  border: 1px solid rgba(0, 0, 0, 0.315);
+  width: 50vw;
+  padding: 0.8rem;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.285);
+  background-color: #09d9af;
+}
+
+h1 {
+  font: 700 1.3rem 'Montserrat';
+  color: white;
+}
+
+.section {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.row {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  width: 20%;
+}
+
+.btn {
+  padding: 0.8rem;
+  font: 700 1rem 'Montserrat';
+  width: 100%;
+  background-color: #0298e6;
+  border: 1px solid #02ddf0;
+  border-radius: 7px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.271);
+  transition-duration: 0.5s;
+  transition-property: transform;
+}
+
+.btn:hover {
+  transform: scale(110%);
+  color: white;
+}
+
+#inputText {
+  text-align: right;
+  padding: 0.5rem;
+  font: 700 1.2rem 'Big Shoulders Display';
+  border-radius: 6px;
+  border: 1px solid #02ddf0;
+  width: 72%;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.297);
+}
+
+.off {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+@media screen and (min-width: 650px) {
+  .main {
+    width: 45vw;
+  }
+}
+
+@media screen and (min-width: 1060px) {
+  .main {
+    width: 25vw;
+  }
+}
+
+.disabled {
+  background-color: rgba(175, 172, 172, 0.934);
+  text-align: center;
+  color: white;
+}
