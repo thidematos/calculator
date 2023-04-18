@@ -21,7 +21,7 @@ body {
   align-items: center;
   gap: 1.3rem;
   border: 1px solid rgba(0, 0, 0, 0.315);
-  width: 50vw;
+  width: 70vw;
   padding: 0.8rem;
   border-radius: 10px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.285);
@@ -81,18 +81,6 @@ h1 {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
-}
-
-@media screen and (min-width: 650px) {
-  .main {
-    width: 45vw;
-  }
-}
-
-@media screen and (min-width: 1060px) {
-  .main {
-    width: 25vw;
-  }
 }
 
 .disabled {
