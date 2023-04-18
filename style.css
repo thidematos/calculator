@@ -21,7 +21,7 @@ body {
   align-items: center;
   gap: 1.3rem;
   border: 1px solid rgba(0, 0, 0, 0.315);
-  width: 70vw;
+  width: 300px;
   padding: 0.8rem;
   border-radius: 10px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.285);
